@@ -1,0 +1,15 @@
+p.sidebar{
+		
+	color:#FFBF7F;
+	font-size:18px;
+
+}
+
+.page-sidebar{
+	float:right;
+	width:25%;
+	margin-top:80px;
+	margin-right:20px;
+	background-color:#1C1C1C;
+	padding:10px;
+}
