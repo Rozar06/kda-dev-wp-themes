@@ -1,0 +1,46 @@
+
+.page{
+    background-color: ff9c00;
+    position:relative;
+    padding: 0px 15px;
+    left: -15px; top: 15px;
+    float: left;
+    height: 30px;
+    width: 800px;
+    -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+    z-index: 100; /* stack order: foreground */
+    behavior: url(ie-css3.htc);
+}
+
+.page_triangle_right{
+  border-color: transparent transparent transparent #9C4D14;
+  border-style:solid;
+  float:right;
+  border-width:15px;
+  position:relative;
+  right:-30px;
+  height:0;
+  behavior: url(ie-css3.htc);
+}
+
+.page_box{
+	 border-radius: 10px;
+         -moz-border-radius: 10px;
+         -webkit-border-radius: 10px;
+         box-shadow: 0 0 8px rgba(0,0,0,.6);
+         -webkit-box-shadow: 0 0 8px rgba(0,0,0,.6);
+         -moz-box-shadow: 0 0 8px rgba(0,0,0,.6);
+         position: relative;
+         background: #fff;
+         z-index: 90; /* stack order: background */
+        width:800px;
+        float:left;
+        height:400px;        
+        margin-left: 130px;
+        margin-top: 30px;
+	
+	
+	behavior: url(ie-css3.htc);
+
+}
